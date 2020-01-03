@@ -311,13 +311,18 @@ input[type=submit] {
     margin-bottom: 10px;
   }
 
+  .container {
+    max-width: 640px; 
+    width: 100%;
+  }
+
   #logo {
     float: left;
     width: 100%;
   }
 
   nav {
-    float: left;
+    float: none;
     margin-top: 10px;
     margin-left: 140px;
     margin-bottom: 10px;
@@ -328,14 +333,34 @@ input[type=submit] {
     padding-top: 0px;
   }
 
+  .main-section { 
+    width: 100%;
+    padding: 30px;
+  }
+
   .main-section h1{ 
     margin-top: 0px;
   }
 
+  /* adjusted the picture size using the height needed to make the picture fill the screen */
   .auth-image {
     width: auto;
     height: 650px;
     margin-bottom: 10px;
+  }
+
+  /* Changing the layout on the Portfolio Page  */
+  .work {
+    width: auto;
+    margin: 20px 0 5px;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 0px;
+  }
+
+  .work h3 {
+    padding: 40px;
   }
 
 }
