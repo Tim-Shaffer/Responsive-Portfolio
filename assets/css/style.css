@@ -268,6 +268,25 @@ input[type=submit] {
 */
 @media screen and (max-width: 768px) 
 {
+  /* added padding to the right so 'Contact' would be fully displayed */
+  nav {
+    padding-right: 20px;
+  }
+  
+  .container {
+    /* Original 960px out of 1325 is approximately 72% of screen so calculated for smaller screen */
+    max-width: 760px; 
+    width: 100%;
+  }
+
+  .main-section { 
+    width: auto;
+    margin: 10px 10px 40px;
+  }
+
+  .auth-image {
+    width: 200px;
+  }
 
 }
 
