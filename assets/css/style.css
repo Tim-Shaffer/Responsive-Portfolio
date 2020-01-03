@@ -333,7 +333,8 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 100%;
+    width: auto;
+    height: 650px;
     margin-bottom: 10px;
   }
 
