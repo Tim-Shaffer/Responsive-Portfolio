@@ -222,6 +222,28 @@ input[type=submit] {
 */
 @media screen and (max-width: 980px) 
 {
+  .container {
+    /* width: auto; */
+    /* Original 960px out of 1325 is approximately 72% of screen so calculated for smaller screen */
+    max-width: 705px; 
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #main-container {
+    /* width: 75%; */
+    /* padding-top: 130px;
+    min-height: calc(100vh - 70px); */
+  }
+  
+  .main-section {
+    float: left; 
+    width: 65%;
+     padding: 30px; 
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
   
 }
 
@@ -237,6 +259,10 @@ input[type=submit] {
   These rules take effect when the browser's width is either 640px or less.  (PHONE - Landscape)
 */
 @media screen and (max-width: 640px) 
-{
-  
+{ 
+  #masthead {
+    position: static;
+
+  }
+
 }
