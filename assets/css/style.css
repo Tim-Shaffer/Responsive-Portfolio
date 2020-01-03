@@ -328,4 +328,13 @@ input[type=submit] {
     padding-top: 0px;
   }
 
+  .main-section h1{ 
+    margin-top: 0px;
+  }
+
+  .auth-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
 }
