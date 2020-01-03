@@ -308,7 +308,18 @@ input[type=submit] {
 { 
   #masthead {
     position: static;
+  }
 
+  #logo {
+    float: left;
+    width: 100%;
+  }
+
+  nav {
+    float: left;
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-bottom: 10px;
   }
 
 }
