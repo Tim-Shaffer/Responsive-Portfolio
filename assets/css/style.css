@@ -225,8 +225,6 @@ input[type=submit] {
   .container {
     /* Original 960px out of 1325 is approximately 72% of screen so calculated for smaller screen */
     max-width: 705px; 
-    margin: 0 auto;
-    clear: both;
   }
 
   .main-section {
@@ -239,11 +237,28 @@ input[type=submit] {
   }
 
   .auth-image {
-    float: left;
     width: 150px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+  }
+
+
+  /* Changing the layout on the Portfolio Page  */
+  .work {
+    width: 175px;
+  }
+
+  .work h3 {
+    padding: 10px;
+    line-height: 10px;
+    font-size: 15px;
+  }
+
+  /* Changing the layout on the Contact Page to remove Bullets on the List Items  */
+  #contact-form ul {
+    padding-inline-start: 0px;
+  }
+
+  #contact-form li {
+    list-style-type: none;
   }
   
 }
