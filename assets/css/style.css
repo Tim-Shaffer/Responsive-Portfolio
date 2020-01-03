@@ -279,7 +279,7 @@ input[type=submit] {
   }
 
   .main-section { 
-    width: auto;
+    width: 100%;
     margin: 10px 10px 40px;
   }
 
