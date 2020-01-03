@@ -308,6 +308,7 @@ input[type=submit] {
 { 
   #masthead {
     position: static;
+    margin-bottom: 10px;
   }
 
   #logo {
@@ -320,6 +321,11 @@ input[type=submit] {
     margin-top: 10px;
     margin-left: 140px;
     margin-bottom: 10px;
+  }
+
+  /* remove the padding from the main-container  */
+  #main-container {
+    padding-top: 0px;
   }
 
 }
