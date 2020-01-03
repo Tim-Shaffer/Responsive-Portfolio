@@ -274,7 +274,6 @@ input[type=submit] {
   }
   
   .container {
-    /* Original 960px out of 1325 is approximately 72% of screen so calculated for smaller screen */
     max-width: 760px; 
     width: 100%;
   }
@@ -286,6 +285,18 @@ input[type=submit] {
 
   .auth-image {
     width: 200px;
+  }
+
+  /* Changing the layout on the Portfolio Page  */
+  .work {
+    width: 300px;
+    margin: 20px 0 5px;
+  }
+
+  .work h3 {
+    padding: 25px;
+    line-height: 10px;
+    font-size: 22px;
   }
 
 }
