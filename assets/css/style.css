@@ -61,6 +61,15 @@ h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  /* Trying Basic CSS Animation to change the Masthead color - copied from w3schools.com */
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
 }
 
 #logo {
@@ -75,6 +84,67 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  /* Trying An Animation - copied from w3schools.com*/
+  animation: animated_div 5s 1;
+  -webkit-animation: animated_div 5s 1;
+}
+
+@-webkit-keyframes animated_div {
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+  }
+
+  25% {
+    transform: rotate(20deg);
+    left: 0px;
+  }
+  50% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  55% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1ec7e6;
+  }
+  100% {
+    transform: rotate(-360deg);
+    left: 0px;
+  }
+}
+
+@keyframes animated_div {
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+  }
+
+  25% {
+    transform: rotate(20deg);
+    left: 0px;
+  }
+  50% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  55% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1ec7e6;
+  }
+  100% {
+    transform: rotate(-360deg);
+    left: 0px;
+  }
 }
 
 nav {
@@ -132,6 +202,15 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  /* Trying Basic CSS Animation to change the Masthead color - copied from w3schools*/
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
 }
 
 /* portfolio page */
@@ -216,6 +295,19 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* CSS Animation */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: #ffffff;}
+  to {background-color: rgb(0, 255, 128);}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: #ffffff;}
+  to {background-color: rgb(0, 255, 128);}
 }
 
 /* Adding the Media Queries */
