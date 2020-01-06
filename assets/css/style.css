@@ -184,6 +184,8 @@ h3, h2 {
 
 #contact-form li {
   margin-bottom: 10px;
+  /* Even though this was copied from the solution, the following was missing and caused bullets to appear on the contact form */
+  list-style-type: none;
 }
 
 label,
@@ -255,10 +257,6 @@ input[type=submit] {
   /* Changing the layout on the Contact Page to remove Bullets on the List Items  */
   #contact-form ul {
     padding-inline-start: 0px;
-  }
-
-  #contact-form li {
-    list-style-type: none;
   }
   
 }
